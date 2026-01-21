@@ -142,4 +142,29 @@ nav a {
     border-radius: 50%;
     border: 1px solid white;
 }
-
+@media screen and (max-width:576px){
+    .nav-container{
+        display: none;
+    }
+    #columns-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 15px;
+        padding: 5px;
+        margin: 0,auto;
+    }
+    #youtube{
+         display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 15px;
+        padding: 5px;
+    }
+}
