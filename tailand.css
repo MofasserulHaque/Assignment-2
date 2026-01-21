@@ -26,6 +26,20 @@ background-color: rgba(26, 11, 46, 1);
      background-repeat:repeat-x ;
      padding-top: 50px;
 }
+.footer{
+    background-image: url('./assets/footer-bg.png');
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 55px;
+    background-repeat: no-repeat;
+    /* padding-right: 50px; */
+    background-position: center;
+
+}
+.middle{
+    text-align: center;
+}
 .navbar{
     display: flex;
      justify-content: space-around;
@@ -85,3 +99,47 @@ nav a {
     gap: 8px;
 
 }
+.banner-container{
+    margin-top: 30px;
+    display: grid;
+    padding: 30px 60px 20px 30px;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.banner{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    padding: 30px;
+}
+.headphone{
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.device, .location{
+    grid-column: span  2;
+    grid-row: span 1;
+}
+.zap{
+    grid-column: span 2;
+    grid-row: span 1;
+
+}
+.vedio{
+    display: grid;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: left;
+     background-color: rgba(35, 14, 61, 1);
+     padding: 15px;
+}
+.round{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
