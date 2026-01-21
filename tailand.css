@@ -57,6 +57,7 @@ nav a {
     text-decoration: none;
     color:rgba(255, 255, 255, 1)
 }
+
 .btn{
     background: linear-gradient(to right, #F7E93F,#FB09B4,#9100F8);
     padding: 10px;
@@ -150,14 +151,13 @@ nav a {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    .banner-container{
+    .headphone{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        justify-items: center;
-        align-items: center;
-        gap: 15px;
-        padding: 5px;
-        margin: 0,auto;
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+       .banner-container{
+       grid-template-columns: repeat(1,1fr);
     }
     #youtube{
          display: grid;
@@ -167,4 +167,32 @@ nav a {
         gap: 15px;
         padding: 5px;
     }
+    #last{
+         display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer{
+         background-image: url('./assets/footer-bg.png');
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 55px;
+    background-repeat: no-repeat;
+    /* padding-right: 50px; */
+    background-position: center;
+    background-size: cover;
+    }
+    #copyright{
+        padding-top: 25px;
+    }
+    #padding{
+        margin: 0 auto;
+        padding: 5px ;
+    }
+  
 }
+   
+ 
