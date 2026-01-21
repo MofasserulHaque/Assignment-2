@@ -49,6 +49,9 @@ background-color: rgba(26, 11, 46, 1);
 nav ul{
     list-style: none;
 }
+.hamburgur{
+    display: none;
+}
 nav ul{
     display: flex;
     gap: 32px;
@@ -146,6 +149,9 @@ nav a {
 @media screen and (max-width:576px){
     .nav-container{
         display: none;
+    }
+    .hamburgur{
+        display: inline;
     }
     #columns-2{
         display: grid;
